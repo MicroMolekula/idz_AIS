@@ -8,12 +8,6 @@ import (
 	"gioui.org/app"
 )
 
-type PC struct {
-	HostName string
-	UserName string
-	Password string
-}
-
 func main() {
 	go func() {
 		w := new(app.Window)
